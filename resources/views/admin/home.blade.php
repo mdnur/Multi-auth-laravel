@@ -9,7 +9,7 @@
 
 
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="{{ route('admin.logout') }}">
+            <a class="dropdown-item" href="{{ route('admin.change.password') }}">
                 {{ __('Change Password') }}
             </a>
             <a class="dropdown-item" href="{{ route('admin.logout') }}"
